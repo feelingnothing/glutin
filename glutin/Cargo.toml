@@ -22,7 +22,7 @@ default = ["x11", "wayland", "wayland-dlopen"]
 
 [dependencies]
 lazy_static = "1.3"
-winit = { git = "https://github.com/feelingnothing/winit.git", default-features = false }
+winit = { git = "https://github.com/feelingnothing/winit.git", branch = "windows-dragging", default-features = false }
 
 [target.'cfg(target_os = "android")'.dependencies]
 android_glue = "0.2"
